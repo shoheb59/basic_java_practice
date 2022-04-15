@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class MyBirthDate {
     public static void main(String[] args) throws ParseException {
-        String bDate = "01/01/2021";
+        String bDate = "01/01/1995";
         SimpleDateFormat dformate = new SimpleDateFormat("dd/MM/yyyy");
         Date date1 = dformate.parse(bDate);
 
