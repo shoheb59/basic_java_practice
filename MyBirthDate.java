@@ -15,7 +15,7 @@ public class MyBirthDate {
         System.out.println(d);
 
         long year = d / (1000l * 60 * 60 * 24 * 365);
-        long month = d/1;
+        long month =d / (1000l * 60 * 60 * 24 * 365 *30)%365;
         long day = d / (1000*60*60*24)%365;
         long hour = (d / (100*60*60))%24;
 
